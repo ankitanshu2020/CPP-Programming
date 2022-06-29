@@ -3,12 +3,11 @@
 using namespace std;
 int main()
 {
-    int t1 = 0, t2 = 1, val, num, nextTerm = 0;
-    cout << "Please enter the number for printing Fibonacci series : ";
-    cin >> val;
-    num = val;
+    int t1 = 0, t2 = 1, num, nextTerm = 0;
+    cout << "\nPlease enter the number for printing Fibonacci series : ";
+    cin >> num;
     cout << "Fibonacci series : " << t1 << " " << t2 << " "; // printing 0 and 1
-    for (int i = 2; i <= val; i++)
+    for (int i = 2; i <= num; i++)
     {
         nextTerm = t1 + t2;
         cout << nextTerm << " ";
