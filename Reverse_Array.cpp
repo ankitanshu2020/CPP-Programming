@@ -18,6 +18,7 @@ int printArray(int arr[], int size)
         cout << " " << arr[i] << ", ";
     }
     cout << endl;
+    return 0;
 }
 int main()
 {
