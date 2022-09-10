@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void revAltArr(int arr[], int size)
+void swapAltArr(int arr[], int size)
 {
     for (int i = 0; i < size; i += 2)
     {
@@ -26,8 +26,8 @@ int main()
 {
     int arr1[6] = {3, 5, 18, 10, 21, 81};
     int arr2[5] = {4, -2, 18, 32, 0};
-    revAltArr(arr1, 6);
-    revAltArr(arr2, 5);
+    swapAltArr(arr1, 6);
+    swapAltArr(arr2, 5);
     printArr(arr1, 6);
     printArr(arr2, 5);
     return 0;
